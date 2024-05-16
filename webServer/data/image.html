@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <title>Image Server</title>
+  <body>
+    <div id="container">
+      <h2>ESP32-CAM Last Photo</h2>
+      <p>It might take more than 5 seconds to capture a photo.</p>
+      <p>
+        <button onclick="rotatePhoto();">ROTATE</button>
+        <button onclick="capturePhoto()">CAPTURE PHOTO</button>
+        <button onclick="location.reload();">REFRESH PAGE</button>
+      </p>
+    </div>
+    <div>
+      <img src="saved-photo" id="photo" width="70%" alt="saved-photo" />
+    </div>
+    <script src="layout.js"></script>
+  </body>
+</html>

@@ -1,0 +1,129 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: white;
+}
+h4 {
+  color: white;
+}
+/* container for button*/
+.container {
+  position: center;
+  width: auto;
+}
+/*responsive image*/
+.container img {
+  width: 100%;
+  height: auto;
+}
+.container1 .btn {
+  position: relative;
+  top: 0%;
+  right: 0%;
+  background-color: rgb(118, 106, 223);
+  color: white;
+  font-size: 14px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+}
+.container1 .btn:hover {
+  background-color: bisque;
+}
+.container .btn {
+  position: relative;
+  top: 25%;
+  left: 25%;
+  background-color: rgb(118, 106, 223);
+  color: white;
+  font-size: 14px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.container .btn:hover {
+  background-color: bisque;
+}
+p {
+  font-size: 1.4rem;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #ecaa6d;
+  text-align: center;
+}
+.topnav1 {
+  overflow: hidden;
+  background-color: #ecaa6d;
+  text-align: left;
+}
+
+.topnav .btn {
+  position: relative;
+  left: 50%;
+  background-color: rgb(218, 190, 68);
+  color: white;
+  font-size: 14px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  overflow: hidden;
+  background-color: #ecaa6d;
+  text-align: left;
+}
+body {
+  margin: 0;
+}
+.content {
+  padding: 5%;
+}
+.card-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.card {
+  background-color: white;
+  box-shadow: 2px 2px 12px 1px rgba(140, 140, 140, 0.5);
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #034078;
+}
+/*flex two columns side by side*/
+.row {
+  display: flex;
+}
+
+.column1 {
+  flex: 33.33%;
+  padding: 5px;
+}
+.column {
+  flex: 50%;
+  padding: 5px;
+  align-content: center;
+}
+body {
+  text-align: center;
+}
+.vert {
+  margin-bottom: 10%;
+}
+.hori {
+  margin-bottom: 0%;
+}
